@@ -26,7 +26,7 @@ RUN /bin/bash -c '. /.nvm/nvm.sh && \
     nvm alias default v3.0.0'
 
 #Install ember-cli
-RUN npm install -g ember-cli@1.13.8 phantomjs bower grunt broccoli-cli
+RUN npm install -g ember-cli@1.13.8 phantomjs bower grunt grunt-cli broccoli-cli
 
 # ADD setupVim.sh /root/setupVim.sh
 # RUN chmod +x /root/setupVim.sh
