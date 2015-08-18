@@ -35,7 +35,7 @@ RUN npm install -g ember-cli@1.13.8 phantomjs bower grunt grunt-cli broccoli-cli
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
 #Expose ports
-EXPOSE 4200 35729
+EXPOSE 4200 4300 35729
 
 # Define default command.
 WORKDIR /root
