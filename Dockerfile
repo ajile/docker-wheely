@@ -6,7 +6,7 @@
 FROM    debian:latest
 
 # Update and install basics
-RUN apt-get update && apt-get install -y git curl nano vim tmux tar bzip2
+RUN apt-get update && apt-get install -y git curl nano vim tmux tar bzip2 gawk
 RUN apt-get install -y build-essential checkinstall
 
 # Install Ruby
