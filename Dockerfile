@@ -8,7 +8,7 @@ FROM    debian:latest
 # Update and install basics
 RUN apt-get update && apt-get install -y git curl nano vim tmux tar bzip2 gawk
 RUN apt-get install -y build-essential checkinstall
-RUN apt-get install expect
+RUN apt-get install -y expect
 
 # Install Ruby
 RUN apt-get install -y rubygems build-essential
